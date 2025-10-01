@@ -27,23 +27,24 @@ It showcases **enterprise-level project structure**, **accessibility compliance 
 - **Unsplash + Google Fonts Icons** – Licensed visuals  
 
 ## 📂 Project Structure
-src/
-├── assets/ # fonts, images
-├── components/
-│ ├── common/ # Card, Modal, ThemeSwitcher, TestimonialsCarousel
-│ ├── features/ # DynamicUpdates, Subscribe
-│ └── layout/ # Header, Footer
-├── hooks/ # useThemes.js
-├── pages/ # Home, About, Services, Booking, Contact, Privacy
-├── styles/ # base, themes, utils
-├── App.jsx # App entry
-└── main.jsx # React entry point
+src/  
+├── assets/ # fonts, images  
+├── components/  
+│ ├── common/ # Card, Modal, ThemeSwitcher, TestimonialsCarousel  
+│ ├── features/ # DynamicUpdates, Subscribe, TestimonialsCarousel  
+│ └── layout/ # Header, Footer  
+├── hooks/ # useThemes.js  
+├── pages/ # Home, About, Services, Booking, Contact, Privacy  
+├── styles/ # base, themes, utils  
+├── App.jsx # App entry  
+└── main.jsx # React entry point  
 
 
 ## 🚀 Getting Started
 ```bash
 npm install
 npm run dev
+```
 
 🎯 Highlights
 - Designed with scalability in mind (modular folder structure, reusable components)
