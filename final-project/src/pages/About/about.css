@@ -1,0 +1,80 @@
+/* About 页面样式 */
+
+.about-page {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    color: rgba(120, 90, 150, 0.9);
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: rgba(60, 60, 60, 0.9);
+  }
+  
+  .experience-section {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .experience-section img {
+        max-width: 100%;
+        max-height: 300px;
+        border-radius: 10px; 
+        margin-top: 15px;
+        object-fit: cover; 
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      
+  }
+  
+  .success-stories {
+    margin: 40px 0;
+  }
+  
+  .success-stories h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(120, 90, 150, 0.9);
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .certifications {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .certifications ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .certifications li {
+    font-size: 1rem;
+    color: rgba(60, 60, 60, 0.9);
+    margin: 10px 0;
+  }
+  
+  .certifications p {
+    font-size: 1rem;
+    color: rgba(60, 60, 60, 0.9);
+    margin-top: 20px;
+  }
+  

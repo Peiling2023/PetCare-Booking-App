@@ -1,0 +1,148 @@
+/* Overall Page Style */
+.booking-page {
+    padding: 20px;
+    background-color: rgba(255, 230, 203, 0.881); 
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .booking-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(120, 90, 150, 0.9);
+    margin-bottom: 20px;
+  }
+  
+  .booking-note {
+    font-size: 0.9rem;
+    color: rgba(80, 80, 80, 0.8);
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .booking-warning {
+    font-size: 0.85rem;
+    color: rgba(200, 50, 50, 0.9);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(60, 60, 60, 0.9);
+    margin-bottom: 5px;
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(200, 200, 200, 0.8);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgba(50, 50, 50, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  
+  .booking-form input:focus,
+  .booking-form select:focus {
+    border-color: rgba(120, 90, 150, 0.9); 
+    outline: none;
+  }
+  
+  .required {
+    color: rgba(200, 50, 50, 0.9);
+  }
+  
+  /* Add Date Button */
+  .add-date-button {
+    padding: 10px 20px;
+    background-color: rgba(178, 141, 255, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .add-date-button:hover {
+    background-color: rgba(178, 141, 255, 0.7);
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(120, 90, 150, 0.9); 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: rgba(150, 120, 180, 0.9); 
+  }
+  
+  /* Time Slot Selection */
+  .booking-form .time-slot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .time-slot label {
+    font-size: 1rem;
+    color: rgba(60, 60, 60, 0.9);
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .booking-page {
+      padding: 15px;
+    }
+  
+    .booking-page h1 {
+      font-size: 2rem;
+    }
+  
+    .form-label {
+      font-size: 0.9rem;
+    }
+  
+    .booking-form input,
+    .booking-form select {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .add-date-button,
+    .submit-button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  

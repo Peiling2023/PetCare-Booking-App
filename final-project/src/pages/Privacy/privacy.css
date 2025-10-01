@@ -1,0 +1,72 @@
+.privacy-page {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .privacy-header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgba(178, 141, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .privacy-header h1 {
+    font-size: 2.5rem;
+    color: rgba(120, 90, 150, 0.9);
+  }
+  
+  .privacy-section, .terms-section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .privacy-section h2, .terms-section h2 {
+    font-size: 2rem;
+    color: rgba(120, 90, 150, 0.9);
+    margin-bottom: 15px;
+  }
+  
+  .privacy-section h3, .terms-section h3 {
+    font-size: 1.2rem;
+    color: rgba(60, 60, 60, 0.9);
+    margin-top: 20px;
+  }
+  
+  .privacy-section p, .terms-section p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgba(255, 240, 240, 0.5); 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    color: rgba(60, 60, 60, 0.9);
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: rgba(120, 90, 150, 0.9);
+    text-decoration: underline;
+  }
+  
