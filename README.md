@@ -1,22 +1,51 @@
 # PetCare-Booking-App 🐶🐾
 ## Overview
-PetCare-Booking-App is a React Single Page Application (SPA) built with Vite.
-It was developed as my Final Project for INFO6150 Web Design at Northeastern University.
-The app simulates a professional pet care booking platform, where users can explore services, view information, and book appointments.
-It demonstrates best practices in responsive web design, accessibility (WCAG), and component-based React development.
+# iCarePets - Responsive Pet Care SPA 🐶🐾
 
-## Features
-✅ Multi-page SPA navigation (Home, Services, Booking, Information)  
-✅ Responsive design with adaptive breakpoints (360px → 1200px)  
-✅ Accessible navigation (semantic HTML, skiplink, aria-labels, alt text)  
-✅ Booking form with validation (input limitations, required fields)  
-✅ Custom color palette and consistent design system  
-✅ Cards, dropdown menus, and adaptive hamburger navigation  
-✅ Organized project structure (src/components, src/styles, etc.)  
+A fully responsive **React + Vite Single Page Application (SPA)** built as my Final Project for INFO6150 Web Design at Northeastern University.  
+The project simulates a professional pet care booking platform where users can explore services, view information, and book appointments.  
+It showcases **enterprise-level project structure**, **accessibility compliance (WCAG)**, and **modern UI/UX best practices**.
 
-**Tech Stack**
-- React 18 + Vite – SPA framework & build tool
-- CSS (multi-file, semantic, BEM-style) – Responsive styling
-- JavaScript (ES6+) – Component logic & form handling
-- Accessibility (WCAG 2.1 AA) – Semantic HTML, ARIA attributes, skiplink
-- Unsplash + Google Fonts Icons – Licensed visuals
+---
+
+## ✨ Features
+- **Multi-page SPA navigation**: Home, About, Services, Booking, Contact, Privacy  
+- **Responsive design**: Works across mobile, tablet, desktop (360px → 1200px)  
+- **Accessibility**: Semantic HTML, ARIA attributes, skip links, alt text for images  
+- **Forms with validation**: Booking form includes input limitations and required fields  
+- **Theme switcher**: Light/Dark mode support via custom hook (`useThemes.js`)  
+- **Reusable components**: Cards, modal dialogs, testimonial carousel, dynamic updates  
+- **Organized architecture**: `components/`, `pages/`, `layout/`, `hooks/`, `styles/`, `assets/`
+
+---
+
+## 🛠️ Tech Stack
+- **React 18 + Vite** – SPA framework & build tool  
+- **JavaScript (ES6+)** – Component logic & form handling  
+- **CSS (multi-file, semantic, BEM-style)** – Responsive, maintainable styling  
+- **Accessibility (WCAG 2.1 AA)** – Semantic HTML, ARIA attributes, skip links  
+- **Unsplash + Google Fonts Icons** – Licensed visuals  
+
+## 📂 Project Structure
+src/
+├── assets/ # fonts, images
+├── components/
+│ ├── common/ # Card, Modal, ThemeSwitcher, TestimonialsCarousel
+│ ├── features/ # DynamicUpdates, Subscribe
+│ └── layout/ # Header, Footer
+├── hooks/ # useThemes.js
+├── pages/ # Home, About, Services, Booking, Contact, Privacy
+├── styles/ # base, themes, utils
+├── App.jsx # App entry
+└── main.jsx # React entry point
+
+
+## 🚀 Getting Started
+```bash
+npm install
+npm run dev
+
+🎯 Highlights
+- Designed with scalability in mind (modular folder structure, reusable components)
+- Demonstrates attention to detail in UI/UX (spacing, color palette, typography)  
+- Fully responsive and accessible, suitable as a portfolio project to showcase front-end expertise  
