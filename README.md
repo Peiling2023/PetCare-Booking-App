@@ -7,18 +7,12 @@ It demonstrates best practices in responsive web design, accessibility (WCAG), a
 
 ## Features
 ✅ Multi-page SPA navigation (Home, Services, Booking, Information)  
-✅ Responsive design with adaptive breakpoints (360px → 1200px)
-
-✅ Accessible navigation (semantic HTML, skiplink, aria-labels, alt text)
-
-✅ Booking form with validation (input limitations, required fields)
-
-✅ Custom color palette and consistent design system
-
-✅ Cards, dropdown menus, and adaptive hamburger navigation
-
-✅ Organized project structure (src/components, src/styles, etc.)
-
+✅ Responsive design with adaptive breakpoints (360px → 1200px)  
+✅ Accessible navigation (semantic HTML, skiplink, aria-labels, alt text)  
+✅ Booking form with validation (input limitations, required fields)  
+✅ Custom color palette and consistent design system  
+✅ Cards, dropdown menus, and adaptive hamburger navigation  
+✅ Organized project structure (src/components, src/styles, etc.)  
 
 **Tech Stack**
 - React 18 + Vite – SPA framework & build tool
