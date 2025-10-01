@@ -6,7 +6,7 @@ A fully responsive **React + Vite Single Page Application (SPA)** built as my Fi
 The project simulates a professional pet care booking platform where users can explore services, view information, and book appointments.  
 It showcases **enterprise-level project structure**, **accessibility compliance (WCAG)**, and **modern UI/UX best practices**.
 
----
+
 
 ## ✨ Features
 - **Multi-page SPA navigation**: Home, About, Services, Booking, Contact, Privacy  
@@ -17,7 +17,7 @@ It showcases **enterprise-level project structure**, **accessibility compliance 
 - **Reusable components**: Cards, modal dialogs, testimonial carousel, dynamic updates  
 - **Organized architecture**: `components/`, `pages/`, `layout/`, `hooks/`, `styles/`, `assets/`
 
----
+
 
 ## 🛠️ Tech Stack
 - **React 18 + Vite** – SPA framework & build tool  
@@ -26,7 +26,7 @@ It showcases **enterprise-level project structure**, **accessibility compliance 
 - **Accessibility (WCAG 2.1 AA)** – Semantic HTML, ARIA attributes, skip links  
 - **Unsplash + Google Fonts Icons** – Licensed visuals  
 
----
+
 ## 📂 Project Structure
 src/  
 ├── assets/ # fonts, images  
@@ -40,14 +40,14 @@ src/
 ├── App.jsx # App entry  
 └── main.jsx # React entry point  
 
----
+
 ## 🚀 Getting Started
 ```bash
 npm install
 npm run dev
 ```
----
-🎯 Highlights
+
+## 🎯 Highlights
 - Designed with scalability in mind (modular folder structure, reusable components)
 - Demonstrates attention to detail in UI/UX (spacing, color palette, typography)  
 - Fully responsive and accessible, suitable as a portfolio project to showcase front-end expertise  
