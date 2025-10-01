@@ -6,8 +6,7 @@ The app simulates a professional pet care booking platform, where users can expl
 It demonstrates best practices in responsive web design, accessibility (WCAG), and component-based React development.
 
 ## Features
-✅ Multi-page SPA navigation (Home, Services, Booking, Information)
-
+✅ Multi-page SPA navigation (Home, Services, Booking, Information)  
 ✅ Responsive design with adaptive breakpoints (360px → 1200px)
 
 ✅ Accessible navigation (semantic HTML, skiplink, aria-labels, alt text)
@@ -21,9 +20,9 @@ It demonstrates best practices in responsive web design, accessibility (WCAG), a
 ✅ Organized project structure (src/components, src/styles, etc.)
 
 
-## Tech Stack
-React 18 + Vite – SPA framework & build tool
-CSS (multi-file, semantic, BEM-style) – Responsive styling
-JavaScript (ES6+) – Component logic & form handling
-Accessibility (WCAG 2.1 AA) – Semantic HTML, ARIA attributes, skiplink
-Unsplash + Google Fonts Icons – Licensed visuals
+**Tech Stack**
+- React 18 + Vite – SPA framework & build tool
+- CSS (multi-file, semantic, BEM-style) – Responsive styling
+- JavaScript (ES6+) – Component logic & form handling
+- Accessibility (WCAG 2.1 AA) – Semantic HTML, ARIA attributes, skiplink
+- Unsplash + Google Fonts Icons – Licensed visuals
