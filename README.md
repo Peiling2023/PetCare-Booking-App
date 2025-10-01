@@ -26,6 +26,7 @@ It showcases **enterprise-level project structure**, **accessibility compliance 
 - **Accessibility (WCAG 2.1 AA)** – Semantic HTML, ARIA attributes, skip links  
 - **Unsplash + Google Fonts Icons** – Licensed visuals  
 
+---
 ## 📂 Project Structure
 src/  
 ├── assets/ # fonts, images  
@@ -39,13 +40,13 @@ src/
 ├── App.jsx # App entry  
 └── main.jsx # React entry point  
 
-
+---
 ## 🚀 Getting Started
 ```bash
 npm install
 npm run dev
 ```
-
+---
 🎯 Highlights
 - Designed with scalability in mind (modular folder structure, reusable components)
 - Demonstrates attention to detail in UI/UX (spacing, color palette, typography)  
